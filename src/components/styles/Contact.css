@@ -1,22 +1,30 @@
 .contact-section {
+  position: relative;
+  z-index: 50;
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   margin-top: 100px;
+  pointer-events: auto;
 }
 .contact-section h3 {
   font-size: 60px;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 40px;
 }
 .contact-flex {
   display: flex;
   justify-content: space-between;
+  gap: 40px;
 }
 .contact-flex h4 {
   font-weight: 500;
   margin: 0;
   opacity: 0.6;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .contact-box {
   display: flex;
@@ -24,11 +32,56 @@
 }
 .contact-flex p {
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.contact-flex p a {
+  color: var(--accentColor);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  transition: opacity 0.2s ease;
+}
+.contact-flex p a:hover {
+  opacity: 0.8;
 }
 a.contact-social {
-  font-size: 25px;
-  border-bottom: 1px solid #ccc;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 0;
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+  position: relative;
+  z-index: 55;
+  width: fit-content;
+}
+a.contact-social:hover {
+  color: var(--accentColor);
+  border-bottom-color: var(--accentColor);
+  transform: translateX(8px);
+}
+a.contact-social svg {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+a.contact-social .contact-arrow {
+  font-size: 18px;
+  opacity: 0.6;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+a.contact-social:hover .contact-arrow {
+  opacity: 1;
+  transform: translate(3px, -3px);
 }
 .contact-box h2 {
   font-weight: 400;
@@ -45,6 +98,7 @@ a.contact-social {
   display: flex;
   gap: 10px;
   opacity: 0.5;
+  margin-top: 20px;
 }
 @media only screen and (max-width: 1600px) {
   .contact-section h3 {

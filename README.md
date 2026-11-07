@@ -1,41 +1,17 @@
-# My Portfolio Website - Overview 🚀
+# Jayesh Borkar - Portfolio Website 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+Portfolio website for **Jayesh Borkar** — Ruby on Rails Developer & Backend / API Engineer.
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
-
----
-
-## 🛠️ Instructions
-
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
+- **Email**: [jayeshborkar5868@gmail.com](mailto:jayeshborkar5868@gmail.com)
+- **LinkedIn**: [linkedin.com/in/jayesh-borkar-08657a21b](https://www.linkedin.com/in/jayesh-borkar-08657a21b)
+- **GitHub**: [github.com/J14as](https://github.com/J14as)
+- **RubyGems**: [rubygems.org/gems/pretty_irb](https://rubygems.org/gems/pretty_irb)
 
 ---
 
 ## ⚙️ Tech Stack
 
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+React • TypeScript • GSAP • Three.js • React Three Fiber • Rapier Physics • Vite
 
 ---
 

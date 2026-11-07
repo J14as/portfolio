@@ -87,24 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>BACKEND</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Architecting resilient Ruby on Rails backends, high-throughput Sidekiq background pipelines (100K+ records/day), RESTful API design, zero-downtime upgrades (Rails 6 to 7), and secure webhook integrations.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Ruby</div>
+                <div className="what-tags">Rails 6/7/8</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Sidekiq</div>
+                <div className="what-tags">ActiveRecord</div>
+                <div className="what-tags">Service Objects</div>
+                <div className="what-tags">ActionCable</div>
+                <div className="what-tags">RSpec</div>
+                <div className="what-tags">Stripe</div>
+                <div className="what-tags">Zeitwerk</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +127,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>PERFORMANCE</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Eliminating N+1 queries, profiling with EXPLAIN ANALYZE, and optimizing PostgreSQL/MySQL performance. Orchestrating AWS, Docker, and CI/CD pipelines alongside streaming LLM integrations (OpenAI/Groq).
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Redis</div>
+                <div className="what-tags">EXPLAIN ANALYZE</div>
+                <div className="what-tags">AWS (EC2/S3)</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">GitHub Actions</div>
+                <div className="what-tags">Hotwire</div>
+                <div className="what-tags">OpenAI / Groq</div>
+                <div className="what-tags">TypeScript</div>
               </div>
               <div className="what-arrow"></div>
             </div>

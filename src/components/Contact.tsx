@@ -1,4 +1,6 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { SiRubygems } from "react-icons/si";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -10,58 +12,61 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:jayeshborkar5868@gmail.com">
+                jayeshborkar5868@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+918766520396">
+                +91 87665 20396
               </a>
+            </p>
+            <h4>Location</h4>
+            <p>
+              Nagpur, Maharashtra <br />
+              <span style={{ fontSize: "14px", opacity: 0.7 }}>(Open to on-site work in Pune or Remote)</span>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
+              href="https://github.com/J14as"
               target="_blank"
-              data-cursor="disable"
+              rel="noopener noreferrer"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              <FaGithub />
+              <span>Github</span>
+              <MdArrowOutward className="contact-arrow" />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/jayesh-borkar-08657a21b"
               target="_blank"
-              data-cursor="disable"
+              rel="noopener noreferrer"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              <FaLinkedinIn />
+              <span>Linkedin</span>
+              <MdArrowOutward className="contact-arrow" />
             </a>
             <a
-              href="https://x.com"
+              href="https://rubygems.org/gems/pretty_irb"
               target="_blank"
-              data-cursor="disable"
+              rel="noopener noreferrer"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              <SiRubygems />
+              <span>RubyGems</span>
+              <MdArrowOutward className="contact-arrow" />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>Jayesh Borkar</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>
